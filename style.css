@@ -1,0 +1,60 @@
+body {
+    background: rgb(238, 238, 238);
+}
+
+h1 {
+    color: rgb(160, 160, 160);
+    border-bottom: 1px solid;
+    margin-bottom: 0;
+}
+
+main {
+    color: rgb(209, 209, 209);
+    padding: 1px 0 1px 80px;
+    margin-left: 7em;
+    border-left: 1px solid;
+}
+
+nav {
+    float: left;
+    padding-top: 1em;
+    width: 7em;
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 7em;
+}
+
+nav li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+}
+
+nav li:hover {
+    background: rgb(238, 182, 182);
+}
+
+nav li.menuDeroulant:hover {
+    background: rgb(238, 221, 221);
+}
+
+nav li a {
+    display: block;
+    padding: 5px 0 5px 5px;
+    text-decoration: none;
+}
+
+.sousMenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 7em;
+}
+
+.menuDeroulant:hover .sousMenu {
+    display: block;
+}
